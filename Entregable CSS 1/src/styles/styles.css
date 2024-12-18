@@ -1,0 +1,87 @@
+/*RESET*/
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+/*DEFINICION DE COLORES*/
+:root {
+    --first-color: #088138;
+    --second-color:  #e3d314;
+    --third-color: #7f8c8d;
+    --fourth-color: #ffffff;
+}
+
+/*HEADER*/
+.ingresar {
+    background-color: var(--first-color);
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 10px;
+    color: var(--fourth-color);
+    padding-right: 10px;
+}
+
+h4 {
+    font-family: "Merriweather", serif;
+}
+/*MAIN*/
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    align-items: center;
+
+}
+
+.logo > img {
+    width: 50% ;
+}
+
+button {
+    border: 2px solid var(--first-color);
+    border-radius: 20px;
+}
+
+h3 {
+    color: var(--third-color);
+    padding: 5px;
+    font-family: "Merriweather", serif;
+}
+
+i {
+    padding: 5px;
+} 
+
+.btn {
+    height:5vh;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    column-gap: 10px;
+}
+
+.nav_container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: var(--third-color);
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+
+}
+
+.preventas {
+    background-color: var(--second-color);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--third-color);
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
